@@ -27,6 +27,12 @@ To download the dataset, use the following command:
 - **Visualization:** Matplotlib, Seaborn
 
 ## Model Architecture
+![Image](https://github.com/user-attachments/assets/6df79166-160c-4768-b7e2-71bfa553cd97)
+
+The model consists of:
+1. **Feature Extraction:** Using CNN-based architectures (e.g., ResNet, VGG) to extract spatial features from video frames.
+2. **Temporal Analysis:** LSTM layers to analyze sequential patterns in frames.
+3. **Classification:** Fully connected layers with softmax activation to determine whether a video contains violence.
 The model consists of:
 1. **Feature Extraction:** Using CNN-based architectures (e.g., ResNet, VGG) to extract spatial features from video frames.
 2. **Temporal Analysis:** LSTM layers to analyze sequential patterns in frames.
@@ -44,7 +50,24 @@ The model consists of:
    ```
 3. Download and preprocess the dataset.
 
+## Usage
+To run the model on a sample video:
+```bash
+python detect_violence.py --video sample_video.mp4
+```
+For real-time detection via webcam:
+```bash
+python detect_violence.py --webcam
+```
+
 ## Evaluation Metrics
+![Image](https://github.com/user-attachments/assets/25833c9b-472d-4df1-926c-c025b6b929ec)
+![Image](https://github.com/user-attachments/assets/125b0c06-9dce-4e8a-b54c-34789108f48c)
+
+The model performance is evaluated using:
+- Accuracy
+- Precision, Recall, and F1-score
+- Confusion Matrix
 The model performance is evaluated using:
 - Accuracy
 - Precision, Recall, and F1-score
