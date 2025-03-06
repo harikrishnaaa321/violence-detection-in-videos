@@ -1,6 +1,7 @@
 # Violence Detection Using Deep Learning
 
-**Check this out:** [Violence Detection on Hugging Face Spaces](https://huggingface.co/spaces/harikrishnaaa321/violenceDetection)
+## Check this out on Hugging Face
+[Violence Detection on Hugging Face Spaces](https://huggingface.co/spaces/harikrishnaaa321/violenceDetection)
 
 ## Overview
 This project focuses on detecting violent activities in videos using deep learning techniques. The model is trained to classify video frames as either violent or non-violent, helping in applications such as surveillance, security monitoring, and crime prevention.
